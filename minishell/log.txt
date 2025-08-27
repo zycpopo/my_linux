@@ -1,0 +1,6 @@
+log.txt
+main.cpp
+Makefile
+minishell
+minishell.cpp
+minishell.h
