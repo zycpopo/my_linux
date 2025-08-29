@@ -30,8 +30,7 @@ public:
 
   void wait()
   {
-    if (_sub_target = -1)
-      ;
+    if (_sub_target != -1)
     {
       waitpid(_sub_target, nullptr, 0);
       _sub_target = -1;
